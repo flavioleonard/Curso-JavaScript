@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style>
+        body {
+            background-color: rgb(119, 119, 230);
+            color: white;
+            font: normal  20pt Arial;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição.</p>
+    
+    <script>
+       
+       
+       var n1 = Number.parseFloat(window.prompt ('Digite um número '))
+       var n2 = Number.parseFloat (window.prompt ('Digite outro número')) /*Window.prompt por definição recebe sempre uma string. Então temos que transformar o n1 e o n2 em um number*/
+       var s = n1 + n2 
+       //window.alert ('A soma dos valores é ' + s) 
+       /*O number antes do window pra converter de string pra number. E string antes do window pra converter de number pra string*/
+
+       /*O sinal de + pode ser usado no JavaScript como concatenação ou como adição. Se for number + number o javascript entende que é uma soma. Se for string + string o javascript entende que é uma concatenação*/
+       /*O certo é usar o template ring com a crase, por exemplo:*/
+       window.alert (`A soma de ${n1} + ${n2} é ${s}`)
+    </script>
+</body>
+</html>

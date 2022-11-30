@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Você é estrangeiro?</title>
+</head>
+<body>
+    <h1>De onde você é?</h1>
+    Qual é o seu país de origem? <input type="text" id="país"><input type="button" value="Pronto">
+    <div id = "res">
+
+    </div>
+    <script>
+        var país = window.document.querySelector('input#país')
+        var res = window.document.querySelector ('div#res')
+        
+        if ( país == 'Brasil' ) {res.innerHTML = `Você é brasileiro`}
+
+        else {res.innerHTML = `Você é estrangeiro`}
+    </script>
+    
+</body>
+</html>
