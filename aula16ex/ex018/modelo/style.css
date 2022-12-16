@@ -23,17 +23,15 @@ section {
 
 }
 
+select#flista {
+    width: 150px;
+    
+}
+
 footer {
     color: white;
     text-align: center;
     font-style: italic;
 
 }
-.space {
-    margin-bottom: 10px;
-}
 
-/*select {
-    width: 200px;
-    height: 200px;
-}*/
